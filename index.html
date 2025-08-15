@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras Casio - Guía Completa Avanzada: Estadística, Programación y Resolución de Ecuaciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        .video-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+        .video-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-left-color: #3B82F6;
+        }
+        .level-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .section-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        }
+        .progress-indicator {
+            background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+        }
+        .video-thumbnail {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+        }
+        @media print {
+            body { font-size: 12px; }
+            .video-card { break-inside: avoid; }
+            .section { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header Principal -->
+    <div class="section-header text-white py-8">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold mb-4">
+                    <i class="fas fa-calculator mr-3"></i>
+                    Calculadoras Casio - Guía Completa Avanzada
+                </h1>
+                <p class="text-xl opacity-90 mb-6">
+                    Domina la Estadística Descriptiva, Programación y Resolución de Ecuaciones con fx-360, fx-82 y fx-570 ES PLUS
+                </p>
+                <div class="flex justify-center space-x-6 text-sm">
+                    <div class="flex items-center">
+                        <i class="fas fa-video mr-2"></i>
+                        <span>50+ Videos Educativos</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-layer-group mr-2"></i>
+                        <span>9 Niveles Progresivos</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-trophy mr-2"></i>
+                        <span>De Básico a Experto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegación Rápida -->
+    <div class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-2 text-sm">
+                <a href="#fundamentos" class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full hover:bg-blue-200 transition">
+                    <i class="fas fa-play-circle mr-1"></i>Fundamentos
+                </a>
+                <a href="#memoria" class="px-3 py-1 bg-green-100 text-green-700 rounded-full hover:bg-green-200 transition">
+                    <i class="fas fa-memory mr-1"></i>Memoria
+                </a>
+                <a href="#estadistica-basica" class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full hover:bg-purple-200 transition">
+                    <i class="fas fa-chart-bar mr-1"></i>Estadística Básica
+                </a>
+                <a href="#estadistica-avanzada" class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full hover:bg-indigo-200 transition">
+                    <i class="fas fa-chart-line mr-1"></i>Estadística Avanzada
+                </a>
+                <a href="#regresion" class="px-3 py-1 bg-pink-100 text-pink-700 rounded-full hover:bg-pink-200 transition">
+                    <i class="fas fa-project-diagram mr-1"></i>Regresión
+                </a>
+                <a href="#ecuaciones" class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full hover:bg-yellow-200 transition">
+                    <i class="fas fa-square-root-alt mr-1"></i>Ecuaciones
+                </a>
+                <a href="#sistemas" class="px-3 py-1 bg-red-100 text-red-700 rounded-full hover:bg-red-200 transition">
+                    <i class="fas fa-sitemap mr-1"></i>Sistemas
+                </a>
+                <a href="#algoritmos" class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition">
+                    <i class="fas fa-code mr-1"></i>Algoritmos
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 py-8">
+
+        <!-- Indicador de Progreso -->
+        <div class="mb-8">
+            <div class="bg-white rounded-lg p-6 shadow-lg">
+                <h3 class="text-lg font-semibold mb-4 flex items-center">
+                    <i class="fas fa-route mr-2 text-blue-600"></i>
+                    Ruta de Aprendizaje Progresiva
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div class="text-center">
+                        <div class="progress-indicator text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <p class="text-sm font-medium">Configuración</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-indicator text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <p class="text-sm font-medium">Memoria</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-indicator text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i class="fas fa-chart-area"></i>
+                        </div>
+                        <p class="text-sm font-medium">Estadística</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-indicator text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <p class="text-sm font-medium">Avanzado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección 1: Fundamentos y Configuración -->
+        <section id="fundamentos" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-play-circle mr-3"></i>
+                                1. Fundamentos y Configuración
+                            </h2>
+                            <p class="opacity-90 mt-2">Configuración básica, modos y preparación de tu calculadora Casio</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-seedling mr-1"></i>Básico
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Configuración Básica de Calculadoras Casio</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Matemáticas profe Alex • 13:49</p>
+                                    <p class="text-xs text-gray-500 mb-3">Configuración básica de las calculadoras FX 82, FX 85, FX 95, FX 360, FX 570, 911 LA Plus</p>
+                                    <a href="https://www.youtube.com/watch?v=Jxf_HijbBOE" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Modos de la Calculadora Científica</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:59</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende todos los modos de la calculadora científica Casio fx-82 MS</p>
+                                    <a href="https://www.youtube.com/watch?v=EDUE5tufVrU" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Cómo Resetear la Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:12</p>
+                                    <p class="text-xs text-gray-500 mb-3">Limpia tu calculadora científica antes de un examen</p>
+                                    <a href="https://www.youtube.com/watch?v=ILrr0c9lFJI" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Configurar Modo Radianes</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:11</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende a configurar la calculadora en modo radianes</p>
+                                    <a href="https://www.youtube.com/watch?v=gFcN5k4Jx1s" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 2: Manejo de Memoria y Variables -->
+        <section id="memoria" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-memory mr-3"></i>
+                                2. Manejo de Memoria y Variables
+                            </h2>
+                            <p class="opacity-90 mt-2">Domina el uso de variables A, B, C, D, E, F, X, Y, M y construcción de rutinas</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-leaf mr-1"></i>Básico-Intermedio
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Guardar en Memorias A, B, C, D, E, F, X, Y, M</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:21</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende a guardar valores en todas las memorias de la calculadora científica</p>
+                                    <a href="https://www.youtube.com/watch?v=fAocpkA21Mg" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Uso de Memoria para Evaluar Fórmulas</h4>
+                                    <p class="text-sm text-gray-600 mb-2">math2me • 3:22</p>
+                                    <p class="text-xs text-gray-500 mb-3">Utiliza la memoria de la calculadora para evaluar fórmulas complejas</p>
+                                    <a href="https://www.youtube.com/watch?v=zFpmw-Rz1g4" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Asignar Valores a Variables</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Angela Suarez • 0:54</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende a darle valores a las variables para resolver problemas más rápido</p>
+                                    <a href="https://www.youtube.com/watch?v=3AyVuWfhr3M" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Guardar y Usar Memorias Casio fx-570 y fx-991</h4>
+                                    <p class="text-sm text-gray-600 mb-2">ElectrotecniAbierta • 1:46</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial completo para guardar y reutilizar valores en calculadoras Casio avanzadas</p>
+                                    <a href="https://www.youtube.com/watch?v=oy7xQMpGXnY" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Uso de Memorias Casio fx-82</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Matemáticas con A. Proa • 2:12</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende el uso práctico de las memorias en calculadoras Casio fx-82</p>
+                                    <a href="https://www.youtube.com/watch?v=zLQoVmbXqsM" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Escribir Letras en la Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:44</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende a escribir letras y utilizar variables en tu calculadora científica</p>
+                                    <a href="https://www.youtube.com/watch?v=WtaInPdLQw8" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3: Estadística Descriptiva - Nivel Básico -->
+        <section id="estadistica-basica" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-chart-bar mr-3"></i>
+                                3. Estadística Descriptiva - Nivel Básico
+                            </h2>
+                            <p class="opacity-90 mt-2">Media, varianza, desviación estándar y medidas de tendencia central básicas</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-leaf mr-1"></i>Intermedio
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Media, Varianza y Desviación Estándar - Datos Simples</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Andrés Arcos (ProfeAndru) • 4:32</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende a calcular estadísticas básicas con calculadora CASIO fx-82MS</p>
+                                    <a href="https://www.youtube.com/watch?v=qguhqq0xvM0" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Estadística con CASIO FX-82ES PLUS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Manuel • 13:00</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial completo para calcular Media y Desviación Típica</p>
+                                    <a href="https://www.youtube.com/watch?v=bDvQ7ul2ew8" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Estadística con Calculadora - Rápido</h4>
+                                    <p class="text-sm text-gray-600 mb-2">matem1nuto • 0:50</p>
+                                    <p class="text-xs text-gray-500 mb-3">Extrae parámetros estadísticos de una tabla de frecuencias rápidamente</p>
+                                    <a href="https://www.youtube.com/watch?v=HPBT89z__Lk" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Media y Desviación Estándar fx-570ES</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Andrés Arcos (ProfeAndru) • 3:11</p>
+                                    <p class="text-xs text-gray-500 mb-3">Calcula Media, Varianza y Desviación Estándar (Poblacional y Muestral)</p>
+                                    <a href="https://www.youtube.com/watch?v=Ds4vXpZ5jOw" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Estadísticas Básicas Casio fx-82MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">cctmexico • 4:16</p>
+                                    <p class="text-xs text-gray-500 mb-3">Funciones de la calculadora para cálculos estadísticos básicos</p>
+                                    <a href="https://www.youtube.com/watch?v=OjW4OqZelO0" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Media, Mediana, Moda con Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">El Estadístico • 0:28</p>
+                                    <p class="text-xs text-gray-500 mb-3">Estadísticos descriptivos: media, mediana, moda, desviación estándar y varianza</p>
+                                    <a href="https://www.youtube.com/watch?v=ZeoNWZbUtMs" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4: Estadística Descriptiva - Nivel Avanzado -->
+        <section id="estadistica-avanzada" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-chart-line mr-3"></i>
+                                4. Estadística Descriptiva - Nivel Avanzado
+                            </h2>
+                            <p class="opacity-90 mt-2">Cuartiles, percentiles, deciles, histogramas y distribuciones de frecuencias</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-tree mr-1"></i>Avanzado
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Estadística con Casio Classwiz - Promedios y Cuartiles</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Profe Danny • 8:00</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende estadística avanzada con calculadora Casio fx-570 y Classwiz</p>
+                                    <a href="https://www.youtube.com/watch?v=b13oD6HqV0o" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Calcular Media, Varianza y Cuartiles</h4>
+                                    <p class="text-sm text-gray-600 mb-2">academia pitagores • 2:27</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial completo para calcular estadísticas avanzadas con Casio</p>
+                                    <a href="https://www.youtube.com/watch?v=Vm5oZe8hmeQ" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Cómo Determinar Cuartiles Fácilmente</h4>
+                                    <p class="text-sm text-gray-600 mb-2">ProfeSergioCM • 24:12</p>
+                                    <p class="text-xs text-gray-500 mb-3">Procedimiento completo y con calculadora para determinar cuartiles</p>
+                                    <a href="https://www.youtube.com/watch?v=M2n-cSRnxHA" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Estadística Descriptiva con Casio Classwiz</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Jose Pineda Clases • 10:45</p>
+                                    <p class="text-xs text-gray-500 mb-3">Cálculos de estadística descriptiva básica con Casio fx-570 Classwiz</p>
+                                    <a href="https://www.youtube.com/watch?v=_fPqvEculfY" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Tablas de Frecuencia con fx-82ES-Plus</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Andrés Arcos (ProfeAndru) • 4:55</p>
+                                    <p class="text-xs text-gray-500 mb-3">Media, Varianza y Desviación Estándar para datos ordenados en tablas</p>
+                                    <a href="https://www.youtube.com/watch?v=sRiMUgfxzwo" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Uso de Calculadora para Estadística Descriptiva</h4>
+                                    <p class="text-sm text-gray-600 mb-2">IgnacioH • 15:01</p>
+                                    <p class="text-xs text-gray-500 mb-3">Utilización de funciones para agilizar cálculos estadísticos en Casio fx95 MS y fx570 ES PLUS</p>
+                                    <a href="https://www.youtube.com/watch?v=ytvt06lpRC0" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 5: Regresión y Correlación -->
+        <section id="regresion" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-project-diagram mr-3"></i>
+                                5. Regresión Lineal y Correlación
+                            </h2>
+                            <p class="opacity-90 mt-2">Análisis de regresión lineal, coeficiente de correlación y análisis bidimensional</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-tree mr-1"></i>Avanzado
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Regresión Lineal con Casio fx-82MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">CONSTANZA ALEJANDRA AHUMADA • 2:57</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial paso a paso para hacer regresión lineal con calculadora CASIO fx-82MS</p>
+                                    <a href="https://www.youtube.com/watch?v=4cQe6J7RzAI" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Regresión Lineal con fx-570LA PLUS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">CONSTANZA ALEJANDRA AHUMADA • 4:32</p>
+                                    <p class="text-xs text-gray-500 mb-3">Regresión lineal completa con calculadora Casio fx-570LA PLUS</p>
+                                    <a href="https://www.youtube.com/watch?v=FN2rVNFo7aU" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Coeficiente de Correlación de Pearson</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Andrés Arcos (ProfeAndru) • 2:10</p>
+                                    <p class="text-xs text-gray-500 mb-3">Calcular el coeficiente de correlación con calculadora CASIO FX-570ES</p>
+                                    <a href="https://www.youtube.com/watch?v=SrGHclGORX4" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Regresión en Calculadoras Científicas</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Profe. Gabriela Berriel • 5:31</p>
+                                    <p class="text-xs text-gray-500 mb-3">Regresión lineal en calculadoras CASIO FX-82, FX-85 y FX-350</p>
+                                    <a href="https://www.youtube.com/watch?v=P2ZQmMbvCcE" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Estadística Bidimensional con Casio</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Ricardo García • 16:19</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial sobre estadística bidimensional y regresión lineal con Casio fx-82MS, fx-82ES y fx-991</p>
+                                    <a href="https://www.youtube.com/watch?v=7WeSmDNImeI" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Regresión Lineal en Calculadora Científica</h4>
+                                    <p class="text-sm text-gray-600 mb-2">JORGE ESTADISTICA • 7:58</p>
+                                    <p class="text-xs text-gray-500 mb-3">Regresión lineal en dos modelos distintos de calculadora científica</p>
+                                    <a href="https://www.youtube.com/watch?v=l85tUR7LFyg" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 6: Resolución de Ecuaciones -->
+        <section id="ecuaciones" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-square-root-alt mr-3"></i>
+                                6. Resolución de Ecuaciones
+                            </h2>
+                            <p class="opacity-90 mt-2">Ecuaciones lineales, cuadráticas, función SOLVE y métodos numéricos</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-tree mr-1"></i>Avanzado
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Función SOLVE - Resolver Cualquier Ecuación</h4>
+                                    <p class="text-sm text-gray-600 mb-2">TrucosTV & Songs • 1:52</p>
+                                    <p class="text-xs text-gray-500 mb-3">Utiliza el modo SOLVE en CASIO fx-570ES PLUS para resolver cualquier ecuación</p>
+                                    <a href="https://www.youtube.com/watch?v=6Q-FBkrYEVQ" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Ecuaciones Cuadráticas fx-82MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Dhruv Gopani • 1:38</p>
+                                    <p class="text-xs text-gray-500 mb-3">Cómo resolver ecuaciones cuadráticas en calculadora científica Casio fx-82ms</p>
+                                    <a href="https://www.youtube.com/watch?v=-biNQGg8jBY" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Ecuaciones con Calculadora Casio fx-82 MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Ignacio Rojas • 1:55</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial básico para hacer ecuaciones con calculadora Casio fx 82 ms</p>
+                                    <a href="https://www.youtube.com/watch?v=_ztzuv_hUEc" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Ecuación Cuadrática con Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:45</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende a resolver ecuaciones cuadráticas con la calculadora científica</p>
+                                    <a href="https://www.youtube.com/watch?v=5Hk9oD9ZwOQ" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Ecuaciones con la Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Aprendiendo Matemática • 0:39</p>
+                                    <p class="text-xs text-gray-500 mb-3">Resolver ecuaciones usando la calculadora científica paso a paso</p>
+                                    <a href="https://www.youtube.com/watch?v=Priv5nALwTI" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Ecuaciones con CASIO</h4>
+                                    <p class="text-sm text-gray-600 mb-2">ingGenio dinámico • 15:52</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial completo para resolver ecuaciones con tu calculadora CASIO</p>
+                                    <a href="https://www.youtube.com/watch?v=_AoJuiFzrYI" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 7: Sistemas de Ecuaciones -->
+        <section id="sistemas" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-sitemap mr-3"></i>
+                                7. Sistemas de Ecuaciones Lineales
+                            </h2>
+                            <p class="opacity-90 mt-2">Sistemas 2x2, 3x3, métodos matriciales y resolución de sistemas complejos</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-crown mr-1"></i>Experto
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Sistemas de Ecuaciones con Casio fx-82 MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Ignacio Rojas • 1:36</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial básico para resolver sistemas de ecuaciones con calculadora Casio fx-82 ms</p>
+                                    <a href="https://www.youtube.com/watch?v=4s_hL3YsMD8" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Sistemas 2x2 y 3x3</h4>
+                                    <p class="text-sm text-gray-600 mb-2">cctmexico • 5:58</p>
+                                    <p class="text-xs text-gray-500 mb-3">Resolver sistemas de ecuaciones lineales en calculadora científica Casio fx-991ES PLUS</p>
+                                    <a href="https://www.youtube.com/watch?v=GjJGmxdUBRY" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Sistema de Ecuaciones Científica</h4>
+                                    <p class="text-sm text-gray-600 mb-2">El profe Te Ve • 4:41</p>
+                                    <p class="text-xs text-gray-500 mb-3">Sistemas de ecuaciones en calculadora científica, ecuaciones simultáneas</p>
+                                    <a href="https://www.youtube.com/watch?v=_2lZRT-HZt8" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Sistemas de Ecuaciones con Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Los Profes De Ciencias • 0:31</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial rápido: resolver sistemas de ecuaciones con la calculadora</p>
+                                    <a href="https://www.youtube.com/watch?v=Q1CGbkiarfY" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Sistema 3x3 con Regla de Sarrus</h4>
+                                    <p class="text-sm text-gray-600 mb-2">BuonaTeach • 1:43</p>
+                                    <p class="text-xs text-gray-500 mb-3">Resolver matriz 3x3 usando la regla de Sarrus con Casio fx-82MS</p>
+                                    <a href="https://www.youtube.com/watch?v=pg3FR8P-yu0" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Sistema con fx991MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">livemathematica • 2:18</p>
+                                    <p class="text-xs text-gray-500 mb-3">Solución de sistema de ecuaciones lineales usando casio fx991MS con matrices</p>
+                                    <a href="https://www.youtube.com/watch?v=BXnToOa_EHI" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 8: Técnicas Avanzadas y Algoritmos -->
+        <section id="algoritmos" class="section mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold flex items-center">
+                                <i class="fas fa-code mr-3"></i>
+                                8. Técnicas Avanzadas y Algoritmos
+                            </h2>
+                            <p class="opacity-90 mt-2">Programación básica, rutinas, algoritmos numéricos y funciones ocultas</p>
+                        </div>
+                        <div class="level-badge text-white px-4 py-2 rounded-full text-sm font-semibold">
+                            <i class="fas fa-crown mr-1"></i>Experto
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Desbloquear Modos Ocultos Casio fx</h4>
+                                    <p class="text-sm text-gray-600 mb-2">IngE Darwin • 7:18</p>
+                                    <p class="text-xs text-gray-500 mb-3">Accede a modos ocultos: ecuaciones, matrices, vectores y más funciones avanzadas</p>
+                                    <a href="https://www.youtube.com/watch?v=_NLQXXu4yOE" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Convertir fx-82MS en fx-570MS</h4>
+                                    <p class="text-sm text-gray-600 mb-2">BarkasTV • 10:14</p>
+                                    <p class="text-xs text-gray-500 mb-3">Truco para temporalmente convertir tu casio fx 82 ms en fx 570 ms para cálculos complejos</p>
+                                    <a href="https://www.youtube.com/watch?v=FvTDYfh_FUA" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Tutorial Completo Calculadora Científica</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Diego Cárdenas • 26:02</p>
+                                    <p class="text-xs text-gray-500 mb-3">Tutorial completo de todas las teclas de calculadoras científicas Casio fx-115ES PLUS</p>
+                                    <a href="https://www.youtube.com/watch?v=nXQ48evAzGY" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">10 Cosas que No Sabías de tu Calculadora</h4>
+                                    <p class="text-sm text-gray-600 mb-2">math2me • 23:29</p>
+                                    <p class="text-xs text-gray-500 mb-3">Funciones ocultas y avanzadas de la Casio Fx 82 cw que muchos no conocen</p>
+                                    <a href="https://www.youtube.com/watch?v=3iYA8MZ8FTE" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Métodos Numéricos - Método de Bisección</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Dr. ZAHIR MATH • 26:15</p>
+                                    <p class="text-xs text-gray-500 mb-3">Aprende el método de bisección paso a paso usando FX-991ES Plus para resolver ecuaciones</p>
+                                    <a href="https://www.youtube.com/watch?v=fCx_Oh_MCE4" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card bg-gray-50 rounded-lg p-4 hover:shadow-lg transition-all">
+                            <div class="flex items-start space-x-4">
+                                <div class="video-thumbnail w-24 h-16 rounded flex items-center justify-center text-white">
+                                    <i class="fas fa-play text-2xl"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Resolver Ecuaciones de Alto Grado</h4>
+                                    <p class="text-sm text-gray-600 mb-2">Prince • 0:42</p>
+                                    <p class="text-xs text-gray-500 mb-3">Cómo resolver ecuaciones de grado superior en casio fx-991ES PLUS</p>
+                                    <a href="https://www.youtube.com/watch?v=sojWaVNN3X8" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium">
+                                        <i class="fab fa-youtube mr-1"></i>Ver en YouTube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Recursos Adicionales -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-lightbulb mr-3"></i>
+                        Consejos y Recursos Adicionales
+                    </h2>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-blue-50 rounded-lg p-6 text-center">
+                            <i class="fas fa-graduation-cap text-3xl text-blue-600 mb-4"></i>
+                            <h3 class="font-semibold text-gray-800 mb-2">Aprendizaje Progresivo</h3>
+                            <p class="text-sm text-gray-600">Sigue el orden de las secciones para un aprendizaje estructurado desde básico hasta experto.</p>
+                        </div>
+                        <div class="bg-green-50 rounded-lg p-6 text-center">
+                            <i class="fas fa-practice text-3xl text-green-600 mb-4"></i>
+                            <h3 class="font-semibold text-gray-800 mb-2">Práctica Constante</h3>
+                            <p class="text-sm text-gray-600">Practica cada técnica con ejemplos propios para dominar completamente tu calculadora.</p>
+                        </div>
+                        <div class="bg-purple-50 rounded-lg p-6 text-center">
+                            <i class="fas fa-bookmark text-3xl text-purple-600 mb-4"></i>
+                            <h3 class="font-semibold text-gray-800 mb-2">Guarda tus Favoritos</h3>
+                            <p class="text-sm text-gray-600">Marca los videos más útiles para tu área de estudio y créate una lista personalizada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modelos de Calculadoras Compatibles -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="section-header text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <i class="fas fa-calculator mr-3"></i>
+                        Modelos de Calculadoras Compatibles
+                    </h2>
+                </div>
+                <div class="p-6">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-gray-50 rounded-lg p-4 text-center">
+                            <h4 class="font-semibold text-gray-800 mb-2">Serie fx-82</h4>
+                            <p class="text-xs text-gray-600">fx-82MS, fx-82ES, fx-82ES PLUS, fx-82LA, fx-82LAX</p>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4 text-center">
+                            <h4 class="font-semibold text-gray-800 mb-2">Serie fx-570</h4>
+                            <p class="text-xs text-gray-600">fx-570ES, fx-570ES PLUS, fx-570LA PLUS, fx-570MS</p>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4 text-center">
+                            <h4 class="font-semibold text-gray-800 mb-2">Serie fx-991</h4>
+                            <p class="text-xs text-gray-600">fx-991ES, fx-991ES PLUS, fx-991EX, fx-991LA PLUS</p>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-4 text-center">
+                            <h4 class="font-semibold text-gray-800 mb-2">Otros Modelos</h4>
+                            <p class="text-xs text-gray-600">fx-85MS, fx-95MS, fx-350MS, fx-360, fx-115ES PLUS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h3 class="text-xl font-semibold mb-4">
+                <i class="fas fa-calculator mr-2"></i>
+                Calculadoras Casio - Guía Completa Avanzada
+            </h3>
+            <p class="text-gray-300 mb-4">
+                Domina completamente tu calculadora Casio desde estadística básica hasta programación avanzada
+            </p>
+            <div class="flex justify-center space-x-6 text-sm text-gray-400">
+                <div class="flex items-center">
+                    <i class="fas fa-video mr-1"></i>
+                    <span>50+ Videos Educativos</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-users mr-1"></i>
+                    <span>Múltiples Profesores</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-clock mr-1"></i>
+                    <span>Contenido Actualizado</span>
+                </div>
+            </div>
+            <div class="mt-6 pt-6 border-t border-gray-700">
+                <p class="text-sm text-gray-400">
+                    © 2024 - Recursos educativos recopilados de YouTube para uso académico
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling para navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animación de cards al hacer hover
+        document.querySelectorAll('.video-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-4px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Contador de progreso visual
+        let currentSection = 0;
+        const sections = document.querySelectorAll('.section');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Añadir clase de animación CSS
+        const style = document.createElement('style');
+        style.textContent = `
+            .animate-fade-in {
+                animation: fadeIn 0.6s ease-in-out;
+            }
+            
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
